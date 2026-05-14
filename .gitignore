@@ -1,0 +1,25 @@
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# PyInstaller 打包产物（重要！不需要上传）
+dist/
+build/
+*.spec
+
+# 日志文件
+*.log
+
+# 虚拟环境
+venv/
+env/
+.venv/
+
+# IDE 配置
+.cursor/
+.vscode/
+
+# 系统文件
+.DS_Store
+Thumbs.db

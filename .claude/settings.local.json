@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install *)",
+      "Bash(python *)",
+      "Bash(PYTHONPATH=\".\" python parser.py \"ZGSZ airport1.rwy\")",
+      "Bash(PYTHONPATH=\"/e/TEST/format conversion\" python -c \"import sys; sys.path.insert\\(0, r'E:\\\\\\\\TEST\\\\\\\\format conversion'\\); from models import Airport; print\\('OK'\\)\")",
+      "Bash(PYTHONPATH=\".\" python formatter.py)",
+      "Bash(PYTHONPATH=\"E:/TEST/format conversion\" python parser.py \"ZGSZ airport1.rwy\")",
+      "Bash(pip show *)",
+      "Bash(pip list *)",
+      "Bash(taskkill /F /IM STAS_Tool.exe)",
+      "Bash(taskkill /F /IM python.exe)",
+      "Bash(pyinstaller --onedir --noconsole --name \"STAS_Tool\" --collect-all rapidocr_onnxruntime --clean gui_main.py)",
+      "WebSearch"
+    ]
+  }
+}
